@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disign_landing_page</title>
+    <link rel="stylesheet" href="./Main.css">
+    <script src="./JavaScript.js"></script>
+    </head>
+
+<body>
+    <header>
+        <a class="hrefButton" href="service">Услуги</a>
+        <a class="hrefButton" href="service">Портфолио</a>
+        <a class="hrefButton" href="service">Обучение</a>
+        <button onclick="window.location.href = 'Contacts'" class="buttonWithBorder">
+            <li>Контакты</li>
+        </button>
+    </header>
+    <content>
+        <h1 class="title">Лаконичный дизайн интерьера для современных людей.</h1>
+        <img src="./img/disignPicture.webp"  alt="DisignPicture">
+        <h2 class="LastProject">Последние проекты</h1>
+            <div class="row">
+                <div class="Project">
+                    <img src="./img/DisignPicture2.webp" alt="LastProject1">
+                    <h4>VOLGODONSK 176</h1>
+                        <p>Вторичный фонд</p>
+                        <p>Волгодонск</p>
+                        <a href="#" class="ProjectLink"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg></a>
+                </div>
+                <div class="Project">
+                    <img src="./img/DisignPicture3.webp" alt="LastProject2">
+                    <h4>BEREGOVOY 67</h1>
+                        <p>ЖК Береговой</p>
+                        <p>Санкт-Петербург</p>
+                        <a href="#" class="ProjectLink">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg>
+                        </a>
+                </div>
+                <div class="Project">
+
+                    <img src="./img/DisignPicture4.webp" alt="LastProject3">
+                    <h4>ARISTO 97</h4>
+                    <p>ЖК Aristol</p>
+                    <p>Санкт-Петербург</p><a href="#" class="ProjectLink"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg></a>
+                </div>
+                
+
+            </div>
+            <button onclick="toggleVisibility(document.getElementById('hideProjects'))" class="buttonWithBorder">
+                <li>Смотреть все работы</li>
+            </button>
+            <div class="hideProjects" id="hideProjects">
+                <div class="row">
+                    <div class="Project">
+                        <img src="./img/DisignPicture5.webp" alt="LastProject1">
+                        <h4>VOLGODONSK 176</h1>
+                            <p>Вторичный фонд</p>
+                            <p>Волгодонск</p>
+                            <a href="#" class="ProjectLink"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg></a>
+                    </div>
+                    <div class="Project">
+                        <img src="./img/DisignPicture6.webp" alt="LastProject2">
+                        <h4>BEREGOVOY 67</h1>
+                            <p>ЖК Береговой</p>
+                            <p>Санкт-Петербург</p>
+                            <a href="#" class="ProjectLink">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg>
+                            </a>
+                    </div>
+                    <div class="Project">
+
+                        <img src="./img/DisignPicture8.webp" alt="LastProject3">
+                        <h4>ARISTO 97</h4>
+                        <p>ЖК Aristol</p>
+                        <p>Санкт-Петербург</p>
+                        <a href="#" class="ProjectLink"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg></a>
+                    </div>
+
+
+                </div>
+            </div>
+
+    </content>
+    <footer>
+        <p>Связаться с нами:</p>
+        <a href="#telegram">telegram</a>
+        <a href="#vk">VK</a>
+    </footer>
+</body>
+
+</html>

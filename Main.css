@@ -1,0 +1,96 @@
+
+
+html, body {
+    background-color: aliceblue;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 3px solid black;
+    height: 33px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.buttonWithBorder {
+    float: right;
+    background-color: aliceblue;
+    border: 1.5px solid black;
+    border-radius: 35px;
+    cursor:pointer;
+}
+
+.buttonWithBorder:hover {
+    transform: scale(1.008);
+}
+
+.hrefButton {
+    color: black;
+    text-decoration: none;
+    margin: 2%;
+}
+
+.hrefButton:hover {
+    color: rgb(81, 81, 81);
+    
+}
+
+.title {
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.LastProject {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 300px;
+}
+
+.Project {
+    padding: 16px;
+    height: 250px;
+}
+
+.ProjectLink {
+    color: black;
+    text-decoration: none;
+    margin: 2%;
+}
+
+
+.hideProjects {
+    visibility: hidden;
+}
+
+footer>a {
+    color: aliceblue;
+}
+
+footer>p {
+    display: inline;
+    color: aliceblue;
+}
